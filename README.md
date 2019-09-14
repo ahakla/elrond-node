@@ -1,6 +1,6 @@
 Instructions for starting a node:
  * Install and configure [docker](https://docs.docker.com/install/) and [docker-compose](https://docs.docker.com/compose/install/)
- * `git clone https://github.com/mrz1703/elrond-node.git` - clone the repository
+ * `git clone https://github.com/ahakla/elrond-node.git` - clone the repository
  * `cd elrond-node` - open the folder with the node
  * In the file `docker-compose.yml` specify the desired version for ELROND_VERSION - [nodes](https://github.com/ElrondNetwork/elrond-go) and CONFIG_VERSION - [configuration files](https://github.com/ElrondNetwork/elrond-config) (tag from github is specified)
  * `docker-compose build` - build the application
